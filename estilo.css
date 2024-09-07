@@ -464,3 +464,78 @@ p{
       width: inherit; /* O valor da largura já definido inline no HTML */
   }
 }
+
+/* Estilos base */
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+    --nav-background: #fff;
+    --nav-text-color: #3e3e3e;
+    --button-background: #303f9f;
+    --button-hover: #151c73;
+}
+
+ /* Tema escuro */
+
+/* Adiciona uma transição suave a todas as propriedades alteráveis */
+[data-theme="dark"] nav,
+[data-theme="dark"] .letter-tech,
+[data-theme="dark"] .topico,
+[data-theme="dark"] .main,
+[data-theme="dark"] .projetos-section,
+[data-theme="dark"] .txt,
+[data-theme="dark"] .btn,
+[data-theme="dark"] .button-info,
+[data-theme="dark"] .about-section {
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+/* Definindo os estilos para o tema escuro */
+[data-theme="dark"] nav {
+    background-color: #333;
+    color: #fff;
+}
+
+[data-theme="dark"] .letter-tech {
+    color: #fff;
+}
+
+[data-theme="dark"] .topico {
+    color: #fff;
+}
+
+[data-theme="dark"] .main,
+[data-theme="dark"] .projetos-section {
+    background-color: #4a4a4a;
+}
+
+[data-theme="dark"] .txt {
+    color: #f3e7e7;
+}
+
+[data-theme="dark"] .btn,
+[data-theme="dark"] .button-info {
+    background-color: #2f40af; 
+    color: #fff;
+    border: 1px solid #25328a; 
+}
+
+[data-theme="dark"] .about-section {
+    background-color: #333;
+}
+
+[data-theme="dark"] .fotter_dark {
+    background-color: #333;
+}
+
+
+
+[data-theme="dark"] .projetos-section{
+    background-color: #4a4a4a;
+}
+
+
+
+[data-theme="dark"] .bodyDK{
+    background-color: #4a4a4a;
+}
