@@ -420,15 +420,13 @@ p{
     line-height: 1.6;
 }
 
-.skills {
-    max-width: 40%;
-}
+
 
 .skill {
     margin-bottom: 20px;
 }
 
-.skill p {
+.skills p {
     font-size: 14px;
     margin-bottom: 5px;
 }
